@@ -56,7 +56,7 @@ $con.Close()
 ```
 
 
-2. ## Créer des Tabler si elle n'y sont pas: 
+2. ## Créer des Tables si elle n'y sont pas: 
 ```PowerShell
 # PowerShell | Copy-Paste via ClipBord
 $con = [System.Data.SqlClient.SqlConnection]::new("Server=localhost;Database=master;Trusted_Connection=True;")
@@ -102,7 +102,7 @@ $tr.Commit()
 $con.Close()
 ```
 
-4. ## Retourner les valeurs enregistrée précedement dans la Table:
+4. ## Retourner les Valeurs enregistrées précedement dans la Table:
 ```PowerShell
 # PowerShell | Copy-Paste via ClipBord
 $con = [System.Data.SqlClient.SqlConnection]::new("Server=localhost;Database=master;Trusted_Connection=True;")
